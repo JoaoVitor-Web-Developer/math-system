@@ -31,7 +31,7 @@ public class BudgetController {
 		return ResponseEntity.ok("Admin access successful!");
 	}
 
-	@PostMapping
+	@PostMapping("/create")
 	@PreAuthorize("hasRole('USER')")
 	public ResponseEntity<BudgetResponseDTO> createBudget(@Valid @RequestBody BudgetRequestDTO request) {
 		BudgetResponseDTO createdBudget = budgetService.createBudget(request);

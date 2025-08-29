@@ -1,7 +1,6 @@
 package com.joao.math_system.controller;
 
-import com.joao.math_system.dto.AuthDto;
-import com.joao.math_system.dto.AuthDto.*;
+import com.joao.math_system.dto.AuthDTO.*;
 import com.joao.math_system.service.AuthService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

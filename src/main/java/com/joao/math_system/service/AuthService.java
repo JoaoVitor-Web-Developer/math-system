@@ -1,6 +1,6 @@
 package com.joao.math_system.service;
 
-import com.joao.math_system.dto.AuthDto.*;
+import com.joao.math_system.dto.AuthDTO.*;
 import com.joao.math_system.entities.Role;
 import com.joao.math_system.entities.User;
 import com.joao.math_system.repository.RoleRepository;
